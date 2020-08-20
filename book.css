@@ -1,0 +1,57 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+header {
+    background-color: paleturquoise;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 120%;
+    display: block;
+    height: 2px;
+}
+.book1 {
+   float: right;
+}
+.book2 {
+    float: left;
+}
+.navbar {
+    font-size: 75%;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    background-color: bisque;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+#saying {
+    font-size: 60%;
+}
+form {
+    padding-top: 0.1em;
+}
+  

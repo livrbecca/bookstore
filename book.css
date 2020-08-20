@@ -34,8 +34,8 @@ header p {
     overflow: hidden;
     background-color: bisque;
     position: sticky;
-    position: -webkit-sticky;
     top: 0;
+    margin-bottom: 10px;
 }
 .navbar a {
     display: block;
@@ -49,9 +49,19 @@ header p {
     color: black;
 }
 #saying {
-    font-size: 60%;
+    font-size: 80%;
 }
 form {
     padding-top: 0.1em;
+}
+.booklist > h2 {
+    text-align: center;
+}
+.searchbar {
+    font-size: 180%;
+}
+.kindle {
+    margin-top: 3em;
+    margin-bottom: 1.1em;
 }
   

@@ -7,20 +7,25 @@ h1 {
 }
 header {
     background-color: paleturquoise;
+    background-repeat:repeat-x;
     text-align: center;
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 20px;
+    height: 250px;
 }
 header p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 120%;
     display: block;
     height: 2px;
+    position: relative;
+    top: 39px;
+    font-size: 90%;
 }
 .book1 {
    float: right;
@@ -32,9 +37,9 @@ header p {
     font-size: 75%;
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
-    background-color: bisque;
-    position: sticky;
-    top: 0;
+    background-image: url("b11.jpg");
+    position: relative;
+    top: 363px;
     margin-bottom: 10px;
 }
 .navbar a {
@@ -45,7 +50,7 @@ header p {
     text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: bisque;
     color: black;
 }
 #saying {
@@ -53,6 +58,8 @@ header p {
 }
 form {
     padding-top: 0.1em;
+    position: relative;
+    top: 35px;
 }
 .booklist > h2 {
     text-align: center;
@@ -64,4 +71,20 @@ form {
     margin-top: 3em;
     margin-bottom: 1.1em;
 }
-  
+.booklist {
+    border-style: double;
+    border-color: steelblue;
+    border-radius: 12px;
+    outline: pink solid 3px;
+    outline-width: medium;
+    background-color: bisque;
+    background-repeat: repeat;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.row {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center
+}
